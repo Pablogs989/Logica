@@ -9,4 +9,3 @@ const booleanoNot = !booleano2;
 console.log(booleanoAnd);
 const booleanoMix0 = (booleano1 || booleano2) && (booleano1 || (!booleano1 && !booleano2));
 console.log(booleanoMix0);
-
