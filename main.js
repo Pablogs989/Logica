@@ -9,7 +9,7 @@ const booleanoOr = booleano1 || booleano2;
 console.log(booleano2);
 const booleanoNot = !booleano2;
 console.log(booleanoAnd);
-const booleanoMix0 = (booleano1 || booleano2) && (booleano1 || (!booleano1 && !booleano2));
+const booleanoMix0 = (booleano1 || booleano2) && (booleano1 || (booleano1 && !booleano2));
 console.log(booleanoMix0);
 
 
@@ -29,7 +29,7 @@ const B = "9";
 if (A == B) {
     console.log("Son iguales");
 } else if (A === B) {
-    console.log("Son iguales");
+    console.log("Son del mismo tipo");
 }
 
 const mochila = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
